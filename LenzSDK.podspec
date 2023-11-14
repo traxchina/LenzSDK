@@ -44,7 +44,8 @@ Pod::Spec.new do |s|
   s.dependency 'SVProgressHUD', '~> 2.2.5'
   s.dependency 'OpenCV2', '~> 4.3.0'
   s.dependency "TensorFlowLite", '~> 1.13.1'
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 
 end
