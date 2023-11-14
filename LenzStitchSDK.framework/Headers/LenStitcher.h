@@ -20,7 +20,9 @@ typedef NS_ENUM(NSInteger, LenVideoStitchResult) {
     LenVideoStitchResultSuccess,         //1: 视频拼接成功
     LenVideoStitchResultSlowMore,       // 2:特征点变少，放慢速度
     LenVideoStitchResultSlow,          //3 : 特征点极少，即将失败
-    LenVideoStitchResultDirectError, // 当前拍摄固定了方向，请勿往反方向移动
+    LenVideoStitchResultModerate,     //4
+    LenVideoStitchResultParallel,    //5
+    LenVideoStitchResultDirectError, // 6 当前拍摄固定了方向，请勿往反方向移动
 };
 
 typedef NS_ENUM(NSInteger, LenVideoStitchNeedSave) {
