@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  sampleSDK
+
+  Created by 王昭威 on 2023/1/18.
+  
+*/
+
+"btn-title-confirm" = "确定";
+"btn-title-cancel" = "取消";
+"delete-image-alert-text" = "图片删除后无法恢复，请确认！";
+"number-of-photos" = "已连拍%@张";
+"mode-title-multiple" = "连拍模式";
+"mode-title-single" = "单拍模式";
+"mode-title-movie" = "视频模式";
+"number-of-movies" = "已拍视频%@条";
+"mode-title-panoramic" = "全景模式";
+"mode-title-ai-panoramic" = "智能全景模式";
+"tip-for-ai-panorama" = "单击拍照，长按全景";

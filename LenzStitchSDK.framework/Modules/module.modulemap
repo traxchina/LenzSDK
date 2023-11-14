@@ -1,0 +1,6 @@
+framework module LenzStitchSDK {
+  umbrella header "LenzStitchSDK.h"
+
+  export *
+  module * { export * }
+}

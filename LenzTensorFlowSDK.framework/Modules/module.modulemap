@@ -1,0 +1,6 @@
+framework module LenzTensorFlowSDK {
+  umbrella header "LenzTensorFlowSDK.h"
+
+  export *
+  module * { export * }
+}
