@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LenzSDK'
-  s.version          = '2.5.5'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of LenzSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description  = "this  is the long description"
 
-  s.homepage         = 'http://39.96.8.150:10080/l405023944/LenzSDK_iOS.git'
+  s.homepage         = 'https://github.com/traxchina/LenzSDK.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '76930516@qq.com' => 'wangzhaowei1991@gmail.com' }
-  s.source           = { :git => 'http://39.96.8.150:10080/l405023944/LenzSDK_iOS.git', :tag => s.version.to_s }
+  s.author           = { 'dawei.xu@traxretail.com' => 'dawei.xu@traxretail.com' }
+  s.source           = { :git => 'https://github.com/traxchina/LenzSDK.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '12.0'
 
