@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LenzSDK'
-  s.version          = '0.0.3'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of LenzSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -44,5 +44,7 @@ Pod::Spec.new do |s|
   s.dependency 'SVProgressHUD', '~> 2.2.5'
   s.dependency 'OpenCV2', '~> 4.3.0'
   s.dependency "TensorFlowLite", '~> 1.13.1'
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+
 
 end
